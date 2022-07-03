@@ -1,2 +1,14 @@
 @media screen and (max-width:670px) {
+
+    .con1-con h1 {
+        padding-left:10px;
+        padding-right:10px;
+        font-size:30px;
+    }
+
+    .con1-message{
+        padding-left:10px;
+        padding-right:10px;
+    }
+
 }
