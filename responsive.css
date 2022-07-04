@@ -44,8 +44,59 @@
         font-size:24px;
     }
 
-    footer {
+    @media screen and (max-width:670px) {
+
+    .con1-con {
+        padding-top:100px;
+    }
+    
+    .con1-con h1 {
+        font-size:30px;
+    }
+
+    .con1-message{
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    .header-con {
+        padding-right:20px;
+        padding-left:20px;
+        height:70px;
+    }
+
+    .header-logo {
+        line-height:70px;
+        font-size:20px;
+    }
+
+    .header-login {
+        line-height:70px;
+        padding-left:25px;
+        padding-right:25px;
+    }
+
+    .lesson {
+        width:100%;
+    }
+
+    .con3 h2 {
+        width:95%;
+        font-size:26px;
+    }
+
+    .con3 h3{
+        width:95%;
+        font-size:24px;
+    }
+
+    .footer-logo {
         text-align:center;
     }
+
+    footer p{
+        text-align: center;
+    }
+
 
 }
