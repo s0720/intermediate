@@ -1,5 +1,9 @@
 @media screen and (max-width:670px) {
 
+    .con1-con {
+        padding-top:100px;
+    }
+    
     .con1-con h1 {
         font-size:30px;
     }
