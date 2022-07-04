@@ -143,7 +143,7 @@
     .con3 {
         text-align:center;
         padding-top:80px;
-        padding-bottom:50px;
+        padding-bottom:80px;
     }
 
     .con3 h2 {
@@ -171,4 +171,22 @@
         position:relative;
         top:7px;
         box-shadow:none;
+    }
+    footer {
+        padding-left:40px;
+        padding-right:40px;
+        padding-bottom:30px;
+    }
+
+    .footer-border {
+        border-top:1px solid #eee;
+    }
+
+    .footer-logo {
+        padding-top:30px;
+    }
+    
+    footer p {
+        font-size:12px;
+        color:#b3aeb5;
     }
