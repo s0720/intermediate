@@ -183,6 +183,7 @@
     }
 
     .footer-logo {
+        display: block;
         width:124px;
         padding-top:30px;
     }
