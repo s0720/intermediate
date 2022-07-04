@@ -1,68 +1,55 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Progate</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <header>
-     <div class="header-con">
-      <div class="header-logo">Progate</div>
-      <div class="header-login">ログイン</div>
-    </div>
-    </header>
-      <div class="con1">
-        <div class="con1-con">
-         <h1>LEARN TO CODE.<br>
-         LEARN TO BE CREATIVE.</h1>
-         <p class="con1-message">Progateはオンラインプログラミング学習サービスです。<br>
-         初心者にもやさしいスライドとレッスンで、Webサービスを作りながらプログライングを学んでいきましょう。</p>
-         <a class="btn register">新規登録はこちら</a>
-         <p class="con1-or">or</p>
-         <a class="btn facebook"><span class="fa fa-facebook"></span> Facebookで登録</a>
-         <a class="btn twitter"><span class="fa fa-twitter"></span> Twitterで登録</a>
-        </div>
-      </div>
-      <div class="con2">
-        <h2>Learn Where to Get Started!</h2>
-        <div class="lesson">
-          <img src="https://prog-8.com/images/html/advanced/html.png">
-          <p class="name">HTML&CSS</p>
-          <p class="ex">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-          <p class="name">jQuery</p>
-          <p class="ex">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <img src="https://prog-8.com/images/html/advanced/ruby.png">
-          <p class="name">Ruby</p>
-          <p class="ex">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <img src="https://prog-8.com/images/html/advanced/php.png">
-          <p class="name">PHP</p>
-          <p class="ex">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-        <div class="clear">
-        </div>
-      </div>
-      <div class="con3">
-       <div class="con3-con">
-        <h2>さあ、あなたもProgateでプログラミングを学んでみませんか？</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-        <a class="development">さっそく開発する</a>
-       </div> 
-      </div>
-      <footer>
-        <div class="footer-border"></div>
-        <div class="footer-logo"><img class="footer-logo" src="https://prog-8.com/images/html/advanced/footer_logo.png"></div>
-        <p>Learn to Code, Learn to be Creative.</p>
-      </footer>
-  </body>
-</html>
+@media screen and (max-width:670px) {
+
+    .con1-con {
+        padding-top:100px;
+    }
+    
+    .con1-con h1 {
+        font-size:30px;
+    }
+
+    .con1-message{
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    .header-con {
+        padding-right:20px;
+        padding-left:20px;
+        height:70px;
+    }
+
+    .header-logo {
+        line-height:70px;
+        font-size:20px;
+    }
+
+    .header-login {
+        line-height:70px;
+        padding-left:25px;
+        padding-right:25px;
+    }
+
+    .lesson {
+        width:100%;
+    }
+
+    .con3 h2 {
+        width:95%;
+        font-size:26px;
+    }
+
+    .con3 h3{
+        width:95%;
+        font-size:24px;
+    }
+
+    .footer-logo {
+        text-align:center;
+    }
+
+    footer p{
+        text-align: center;
+    }
+
+}
