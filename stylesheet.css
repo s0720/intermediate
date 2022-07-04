@@ -98,3 +98,44 @@
         background-color:rgba(255, 255, 255, 0.5);
         cursor:pointer;
     }
+
+    .con2 {
+        background-color:#f7f7f7;
+    }
+
+    .con2 h2 {
+        color:#5f5d60;
+        text-align:center;
+        padding-top:80px;
+        padding-bottom:50px;
+        font-weight: normal;
+        margin-top:-20px;
+    }
+
+    .lesson {
+        float:left;
+        width:25%;
+        margin:0 auto;
+        text-align:center;
+        position:relative;
+    }
+
+    .clear {
+        clear:left;
+    }
+
+    .name {
+        position:absolute;
+        top:75px;
+        width:100%;
+        color:white;
+    }
+
+    .ex {
+        padding-top:15px;
+        font-size:13px;
+        width:80%;
+        margin:0 auto;
+        color:#b3aeb5;
+        padding-bottom:80px;
+    }
